@@ -4,9 +4,18 @@ input {
   width: 240px;
   border-radius: 3px;
 }
+input:hover {
+  background-color: khaki;
+}
+input:disabled {
+  background-color: lightgrey;
+}
 button {
   width: 120px;
   height: 36px;
   border-color: lightgray;
   background-color: khaki;
+}
+button:hover {
+  color: pink;
 }
